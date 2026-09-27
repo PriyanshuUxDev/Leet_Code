@@ -14,9 +14,8 @@ class Solution {
             maxf=Math.max(maxf,  freq[right-'A']);
             if((j-i+1) -maxf >k){
                  freq[left-'A']--;
-                 for(int l=0;l<=25;l++)  maxf=Math.max(maxf,  freq[l]);
-                 i++;
-                 
+                //  for(int l=0;l<=25;l++)  maxf=Math.max(maxf,  freq[l]);
+                 i++;     
             }
               if((j-i+1) -maxf <=k){
             maxl=Math.max(maxl,j-i+1);
